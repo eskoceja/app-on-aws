@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #22223b;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+  color: #f2e9e4;
+}
+
+.card {
+  background-color: #9a8c98;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin: 4rem;
+}
+
+label {
+  color: #22223b;
+  font-weight: bold;
+}
+
+.btn-create {
+  background-color: #52b788;
+  color: #22223b;
+  border-color: #22223b;
+}
+.btn-create:hover {
+  background-color: #40916c;
+  border-color: #f2e9e4;
+  color: #f2e9e4;
+}
+
+.btn-edit {
+  background-color: #ffbf69;
+  color: #22223b;
+  border-color: #22223b;
+}
+
+.btn-edit:hover {
+  background-color: #ff9f1c;
+  border-color: #f2e9e4;
+}
+
+.btn-delete {
+  background-color: #c9184a;
+  border-color: #22223b;
+  color: #22223b;
+}
+
+.btn-delete:hover {
+  background-color: #800f2f;
+  border-color: #f2e9e4;
+}
